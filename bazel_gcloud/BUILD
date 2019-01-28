@@ -42,7 +42,7 @@ container_run_and_commit(
 container_image(
 	name = "bazel_gcloud",
 	base = ":gcloud_install_commit.tar",
-    env = {"PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/google-cloud-sdk/bin"},
+	env = {"PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/google-cloud-sdk/bin"},
 )
 
 # Tests
